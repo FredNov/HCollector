@@ -1,6 +1,18 @@
 # HCollector
 
-Houdini tool for automatically sorting and collecting files from *.hip files
+Houdini python panel tool for automatically sorting and collecting files from *.hip scenes
+
+  ![Help](Help/Hcollector.gif)
+
+- Search for missing files. Automatically fixes broken links.
+- Fixes absolute path to $HIP
+- Detects file sequenses
+- Collects all external files
+- Collects Custom Attributes
+- Generates text report
+- Creates ZIP archive    
+
+
 
 How to Install:
 
