@@ -12,7 +12,7 @@ Houdini python panel tool for automatically sorting and collecting files from *.
 - Generates text report
 - Creates ZIP archive    
 
-
+If you spot any bug, please feel free to send me an email at gammany@gmail.com
 
 How to Install:
 
