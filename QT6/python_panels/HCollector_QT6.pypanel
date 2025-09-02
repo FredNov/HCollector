@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pythonPanelDocument>
+  <!-- This file contains definitions of Python interfaces and the
+ interfaces menu.  It should not be hand-edited when it is being
+ used by the application.  Note, that two definitions of the
+ same interface or of the interfaces menu are not allowed
+ in a single file. -->
+  <interface name="HCollector" label="HCollector" icon="MISC_python" help_url="">
+    <script><![CDATA[def createInterface():
+    import HCollector_QT6
+    from importlib import reload
+    reload(HCollector_QT6)
+    return HCollector_QT6.HCollector()]]></script>
+    <help><![CDATA[]]></help>
+  </interface>
+</pythonPanelDocument>
